@@ -1,0 +1,27 @@
+Topic:- Javascript
+-------------------
+->js is dynamically typed language
+
+variable Rules
+------------------
+1)name are case sensitive "a" & "A" is different.
+2)only letters,digits,underscore(_) and $ is allowed.
+3)only letters,underscore(_) and $ should be 1st character.
+4)Reserved words can not be variable names.
+5)space is not allowed in variable name.
+
+
+let,const,var function
+-------------------------
+var - variable can be re-declared & updated. A global scope variable.
+let - variable cannot be re-declared but can be updated.A block scope variable.
+const - variable cannot be re-declared or updated. A block scope variable.
+
+Datatypes in js
+--------------------
+primitives :-
+number, string, boolean, undefined, null, bigint, symbol
+
+non-primitive :- objects means a collection of values.
+       types of objects are arrays, functions
+       we can store key:value pair.(exa = age:24)
