@@ -5,7 +5,7 @@
 // for(let i=1;i<6;i++){
 //     console.log("I am Nishi.");
 // }
-// for(let i=1;i<6;i++){
+// for(let i=100;i>=1;i--){
 //     console.log("i=",i);
 // }
 
@@ -70,11 +70,18 @@
 
 // que-2 create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
-let gameNum = 25;
-let userNum = prompt("Guess the game number : ");
+// let gameNum = 25;
+// let userNum = prompt("Guess the game number : ");
 // console.log(userNum);
 
-while(userNum != gameNum){
-    userNum = prompt("you entered wrong number. Guess again : ");  
+// while(userNum != gameNum){
+//     userNum = prompt("you entered wrong number. Guess again : ");  
+// }
+// console.log("congratulations, you entered the right number");
+
+const num=5;
+for(let i=1;i<=10;i++){
+    const result = num*i;
+    console.log(`${num} * ${i} = ` ,result);
 }
-console.log("congratulations, you entered the right number");
+

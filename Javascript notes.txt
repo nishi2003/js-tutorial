@@ -25,3 +25,143 @@ number, string, boolean, undefined, null, bigint, symbol
 non-primitive :- objects means a collection of values.
        types of objects are arrays, functions
        we can store key:value pair.(exa = age:24)
+
+Operators in js
+---------------------
+(1) Arithmatic operator [+,-,*,/,%,**]
+(2)unary operator       [++,--]
+(3)assignment operator  [+=,-=,*=,/=]
+(4)comparison operator  [==,!=,===]
+(5)logical operator	[And, or, not]
+(6)conditional operator	[if,else,else if]
+
+Loops in js
+-----------------
+for		[int i=0;i<5;i++]
+while		[i<5]
+do...while
+for-of		[let val of strvar]
+for-in		[let key in objvar] note- it returns keys of any object
+
+strings in js
+-----------------------
+template literals = \n,\t
+toUpperCase(),toLowerCase(),totrim(),slice(),replace()
+
+arrays in js
+---------------------
+array is mutable.
+splice(add,remove,replace)
+
+functions in js
+----------------------
+forEach() is used for calculations and print the value.
+map() is used for to print new array.
+filter(),reduce()
+
+DOM in js
+-------------
+window object
+
+DOM manipulation:-
+1)selecting with id
+document.getElementsById("myId")
+2)selecting with class
+document.getElementsByClassName("myClass")
+3)selecting with tag
+document.getElementsByTagName("p")
+
+Query selector:-
+1)return first element
+document.querySelector("myid/myclass/tag")
+2)return a node list
+document.querySelectorAll("myid/myclass/tag")
+
+properties:-
+1)tagname:- return tag for element nodes
+2)innerText- returns the text content of the elements and all its children
+3)innerHtml- returns the plain text or HTML contents in the element.
+4)textContent- returns textual content even fro hidden elements
+
+Attributes
+-------------
+getAttribute(attr)
+setAttribute(attr,value)
+
+insert elements
+-------------------
+node.append(el) //add at the end of node(inside)
+node.prepend(el) // adds at the start of node(inside)
+node.before(el) // adds before the node(outside)
+node.after(el) //adds after the node(outside)
+
+delete elements
+------------------
+node.remove() //remove the node
+
+Events in js
+-----------------
+definition :- the change in the state of an object is known as an event
+
+mouse events(click,double click etc.)
+keyboard events(keypress,keyup,keydown)
+Form events(submit etc)
+
+Event listeners:-
+node.addEventListener(event,callback)
+node.removeEventListener(event,callback)
+
+inheritance in js
+---------------------
+inheritance is passing down properties & methods from parent class to child class.
+*extend* word is uded to inherit (syntax:- class child extends parent).
+
+error handling in js
+------------------------
+try and catch are used to make error free code.
+syntax:-
+ try{
+	normal code
+}
+catch(err){
+	handling error
+}
+
+callbacks in js
+------------------
+A callback is a function passed as an argument to another function.
+
+Promises in js
+------------------
+promise is for "eventual" completion of task. It is an object in js.
+It is a solution to callback hell.
+
+let promise = new promise((resolve,reject)=>{.....})
+
+>pending: the result is undefined
+>resolved: the result is a value(fulfilled)     	resolve(result)
+>rejected: the result is an error object 		reject(error)
+
+promises have main two methods those are .then() and .catch() to resolve data or reject data.
+
+async await in js
+---------------------
+async functon{ 
+	await()
+}
+
+IIFE in advance js
+--------------------
+IIFE- immediately invoked function expression
+iife is a function that is called immediately as soon as it is called.
+(function)()
+
+fetch API in js
+-------------------
+It uses request and response obje	cts
+the fetch() method is used to fetch a resource(data).
+let promise = fetch(url,[options])
+
+
+
+
